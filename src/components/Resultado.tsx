@@ -158,7 +158,7 @@ const Resultado: React.FC<ResultadoProps> = ({ resultado, onBackToDashboard, onG
                 <Trophy className="h-5 w-5" />
                 Pontos Fortes
               </CardTitle>
-            </Card>
+            </CardHeader>
             <CardContent>
               <p className="text-sm text-green-700">
                 <strong>{bestEixo.name}:</strong> Excelente performance com {bestEixo.percentage}% de acertos!
